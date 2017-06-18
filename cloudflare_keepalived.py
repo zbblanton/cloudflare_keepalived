@@ -16,7 +16,7 @@ sendmail_api_key = 'SENDMAIL API KEY'
 sendmail_mail_to = 'MAIL TO ADDRESS'
 sendmail_mail_from = 'MAIL FROM ADDRESS'
 
-#Example: '1.1.1.1','2.2.2.2','3.3.3.3'
+#Example: ip_list = ['1.1.1.1','2.2.2.2','3.3.3.3']
 ip_list = ['COMMA SEPARATED IP ADDRESSES']
 
 #Send mail using sendgrid API
