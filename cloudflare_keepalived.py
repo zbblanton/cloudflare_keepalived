@@ -7,16 +7,17 @@ TODO:
 import os
 import requests
 
-cloudflare_api_key = ''
-cloudflare_email = ''
-cloudflare_domain = ''
-cloudflare_zone_id = ''
+cloudflare_api_key = 'CLOUDFLARE API KEY'
+cloudflare_email = 'CLOUDFLARE EMAIL'
+cloudflare_domain = 'DOMAIN' #Only the root domain, ex: example.com
+cloudflare_zone_id = 'CLOUDFLARE ZONE ID'
 
-sendmail_api_key = ''
-sendmail_mail_to = ''
-sendmail_mail_from = ''
+sendmail_api_key = 'SENDMAIL API KEY'
+sendmail_mail_to = 'MAIL TO ADDRESS'
+sendmail_mail_from = 'MAIL FROM ADDRESS'
 
-ip_list = ['1.1.1.1','2.2.2.2','3.3.3.3']
+#Example: '1.1.1.1','2.2.2.2','3.3.3.3'
+ip_list = ['COMMA SEPARATED IP ADDRESSES']
 
 #Send mail using sendgrid API
 def send_mail(mail_to, mail_from, mail_subject, mail_content):
