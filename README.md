@@ -27,7 +27,7 @@ ip_list = ['1.1.1.1','2.2.2.2','3.3.3.3']
 ```
 
 * To get the cloudflare zone id, simply login to cloudflare and copy the Zone ID from the Domain Summary.
-* The ip list is the pool of server IP's
+* The ip list is the pool of server IP's.
 
 If on Linux:
 ```
